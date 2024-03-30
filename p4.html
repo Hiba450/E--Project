@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+background-color: black;
+color: white;
+border: 3px solid #CC9900;
+}
+#box{
+    height: 700px;
+    width: 80%;
+    
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+#b1{
+    height: 500px;
+    width: 500px;
+    
+    border-radius: 50px 50px 50px 50px;
+    background-image: url(coffee4.jpg);
+}
+#b2{
+    height: 550px;
+    width: 500px;
+   
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 50px;
+}
+#box1{
+    height: 60px;
+    width: 350px;
+   
+    text-align: center;
+    margin-top: 30px;
+}
+#box2{
+    height: 40px;
+    width: 300px;
+   
+   margin-left: 15px;
+}
+#box3{
+    height: 60px;
+    width: 450px;
+   
+    display: flex;
+}
+#box4{
+    height: 60px;
+    width: 450px;
+    
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#box5{
+    height: 100px;
+    width: 450px;
+   
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#box6{
+    height: 100px;
+    width: 450px;
+   
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#b3{
+    height: 80px;
+    width: 200px;
+   
+    display: flex;
+    line-height: 60px;
+    margin-left: 20px;
+}
+#b4{
+    height: 80px;
+    width: 200px;
+   
+    display: flex;
+    margin-left: 20px;
+}
+button{
+    height: 50px;
+    width: 150px;
+cursor: pointer;
+border-radius: 20px 20px 20px 20px;
+margin-top: 20px;
+margin-left: 10px;
+line-height: 50px;
+}
+button:hover{
+    background: rgb(177, 174, 174) ;
+}
+</style>
+</head>
+<body>
+    <script>
+    </script>
+    <div id=container>
+<div id="box">
+<div id="b1"></div>
+<div id="b2">
+    <div id="box1">
+        <h2>CAPPUCCINO</h2>
+    </div>
+    <div id="box2">
+        <h4>RS.420</h4>
+    </div>
+    <div id="box3">
+        <input type="radio" style="margin-top: 20px; margin-left: 20px;">
+        <p style="margin-left: 30px; margin-top: 10px; font-size: 20px;">Regular</p>
+        <p style="margin-left: 150px; margin-top: 10px; font-size: 20px; ">Rs.420</p>
+    </div>
+    <div id="box3">
+        <input type="radio" style="margin-top: 20px; margin-left: 20px;">
+        <p style="margin-left: 30px; margin-top: 10px; font-size: 20px;">Large</p>
+        <p style="margin-left: 167px; margin-top: 10px; font-size: 20px; ">Rs.550</p>
+    </div>
+    <div id="box4">
+        <p>Special Instrustions</p>
+    </div>
+    <div id="box5">
+        <input type="text" placeholder="Please enter special Instructions about the item" style="width: 400px;">
+    </div>
+    <div id="box6">
+        <div id="b3">
+            <div class="input-group">
+                <button id="decrement" style="height: 30px;width: 30px; border-radius: 10px 10px 10px 10px; color: black; line-height: 30px;">-</button>
+                <input type="number" id="input" value="0" readonly style="height: 30px;width: 30px; margin-top: 20px; margin-left: 20px; line-height: 30px;">
+                <button id="increment" style="height: 30px;width: 30px; border-radius: 10px 10px 10px 10px; color: black; line-height: 30px; margin-left: 20px;">+</button >
+              </div>
+        </div>
+        <div id="b4">
+            <button>Add to Cart</button>
+           
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+
+</body>
+</html>

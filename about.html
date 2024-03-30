@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+            color: white;
+            border: 1px solid #CC9900;
+        }
+        #boxx1{
+            height: 400px;
+            width: 45%;
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-left: 50px; 
+            text-align: justify;
+        }
+        #bs{
+            height: 50px;
+            width: 300px;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+        #b1{
+            height: 700px;
+            width: 100%;
+            border:  1px solid black;
+            display: flex;
+        }
+        #boxx2{
+            height: 400px;
+            width: 50%;
+            border: 1px solid black;
+            margin-top: 100px;
+            margin-left: 50px; 
+            text-align: justify;
+        }
+        #bg{
+          background-color: black;
+        }
+        #box{
+            height: 50px;
+            width: 100%;
+            border: 1px solid black;
+            background-color: black;
+            
+        }
+        #box1{
+            height: 30px;
+            width: 25%;
+            border: 1px solid black;
+            margin-top: 10px;
+            float: left;
+        }
+        #bb1{
+            height: 29px;
+            width: 30px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 40px;
+            line-height: 30px;
+        }
+        #bb2{
+            height: 30px;
+            width: 75%;
+            border: 1px solid black;
+            float: left;
+            cursor: pointer;
+            margin-top: 13px;
+        }
+        #ab{
+           text-align: left;
+           line-height: 2px;
+           color: #CC9900;
+        }
+        #box2{
+            height: 30px;
+            width: 20%;
+            border: 1px solid black;
+            float: left;
+            margin-top: 10px;
+            
+        
+        }
+        #bb3{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            
+        }
+        #bb4{
+            height: 30px;
+            width: 85%;
+            border: 1px solid black;
+            float: left;
+            cursor: pointer;
+            margin-top: 13px;
+        }
+        #cd{
+            text-align: left;
+           line-height: 2px;
+           color: #CC9900;
+        }
+        #box3{
+            height: 30px;
+            width: 150%;
+            border: 1px solid black;
+            float: left;
+            margin-left: 600px;
+            margin-top: -47px; 
+            margin-bottom: 10px;
+        }
+        #bb5{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 80px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #bb6{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 30px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        #bb7{
+            height: 30px;
+            width: 35px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 30px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+          #nav{
+            height: 100px;
+            width: 100%;
+            border: 1px solid black;
+            
+            background-color: black;
+
+          }  
+          #box4{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 80px;
+          }
+          #box5{
+            height: 100px;
+            width: 800px;
+           
+            float: left;
+            margin-left: 50px;
+            cursor: pointer;
+            
+          }
+          #box6{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            float: left;
+            margin-left: 20px;
+          }
+          #hl{
+            text-align: center;
+            margin-top: 30px;
+            color: #CC9900;
+          }
+          ul li{
+            list-style: none;
+            float: left;
+            margin-left: 50px;
+            line-height: 100px;
+            color: #CC9900;
+          }
+          #gs{
+            margin-top: 35px;
+            margin-left: 30px;
+            font-size: medium;
+            cursor: pointer;
+            
+          }
+          a{
+            color: black;
+          }
+          #last{
+  height: 10px;
+  width: 100%;
+
+  
+}
+
+#last2{
+  height: 150px;
+  width: 400px;
+ 
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+#last3{
+  height: 150px;
+  width: 300px;
+  
+  float: left;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+#last4{
+  height: 150px;
+  width: 550px;
+
+  float: left;
+  margin-top: 20px;
+}
+#lastt{
+  height: 200px;
+  width: 100%;
+
+}
+#copy{
+  height: 50px;
+  width: 100%;
+
+ text-align: center;
+  color: white;
+}
+#he{
+  color: #CC9900;
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+#he1{
+  color: white;
+  margin-top: 10px;
+  font-size: 13px;
+  
+  
+}
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <div id="box">
+            <div id="box1">
+                <div id="bb1">
+                    <img src="email-icon.png">
+                </div>
+                <div id="bb2">
+                <a href="https://g.co/kgs/KNXWw8N" target="_blank"><p id="ab">coffeebrew@gmail.com</p></a>
+                </div>
+            </div>
+            <div id="box2">
+                <div id="bb3">
+                    <img src="phone.png">
+                </div>
+                <div id="bb4">
+                    <p id="cd">+92 3212764328</p>
+                </div>
+                <div id="box3">
+                    <div id="bb5">
+                        <a href="https://twitter.com/login" target="_blank"><img src="twitter.png"></a>
+                    </div>
+                    <div id="bb6">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png"></a> 
+                     </div>
+                     <div id="bb7">
+                         <a href="https://www.instagram.com/" target="_blank"><img src="instagram.png"></a>
+                     </div>
+                 </div>
+             </div>
+         </div> 
+         <div id="nav">
+            <div id="box4">
+                <h1 id="hl">Coffeebrew</h1>
+            </div>
+            <div id="box5">
+                <ul>
+                    <a href="index.html" target="_self"><li>Home</li></a>
+                    <a href="about.html" target="_self"><li>About</li></a>
+                    <a href="ourcoffee.html" target="_self"><li>Our Coffee</li></a>
+                    <a href="bankdiscount.html" target="_self"><li>Bank Discounts</li></a>
+                  
+                </ul>            
+    
+            </div>
+            <div id="box6">
+                <button type="Get Started" id="gs">Order Online</button>
+            </div>
+        </div>
+    <div id="b1">
+    <div id="boxx1">
+        <h2 style="font-style: italic; color: #CC9900;"> Our Story</h2>
+        <h1 style="margin-bottom: 50px; margin-top: 20px;"> Few words about us</h1>
+        <p>Cafe Coffeebrew has been decorated to create a contemporary, upbeat and welcoming atmosphere where guests can relax and enjoy a quality. The seats are comfortable, the tables are natural, and the colors are soothing, which further adds to the pleasant surroundings. The corner with a sofa has been specially arranged with books for children and adults to encourage a friendly and family oriented atmosphere. Decor was designed keeping in mind coziness for consumers. Cafe  makes the perfect cozy venue for meeting up with friends.</p>
+        <hr style="color: #CC9900;">
+        <a href="ourcoffee.html" target="_blank"><button id="bs">Explore Our Menu</button>  </a> 
+    </div>
+    <div id="boxx2">
+        <img src="banner4.jpg" style="height: 390px;width: 670px;">
+    </div>
+</div>
+<div id="last">
+</div>
+<div id="lastt">
+    <hr style="color: #CC9900;">
+<div id="last2">
+  <h3 id="he">Company About</h3>
+  <p id="he1">Feel Free To Reach Out To Our Team.We're Here To Assist You And Answer Any Questions You May Have.</p>
+</div>
+<div id="last3">
+  <h3 id="he">Opening Hours</h3>
+  <p id="he1">Monday-Friday 07:00 Am-9:00 Pm</p>
+  <p id="he1">Saturday-Sunday 07:00 Am-12:00 Am</p>
+</div>
+<div id="last4">
+  <iframe src="https://www.google.com/maps/d/embed?mid=1TWjK-qadigTRp5rr6LB1l4e-JoE&hl=en&ehbc=2E312F" width="540" height="150"></iframe>
+</div>
+           </div>
+           <hr style="color: #CC9900;"> <div id="copy">
+            <p>Copy Right @0450 Coffeebrew</p>
+           </div>
+    </div>
+     </div>
+</body>
+</html>
